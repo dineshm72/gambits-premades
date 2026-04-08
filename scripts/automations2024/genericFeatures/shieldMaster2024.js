@@ -136,7 +136,7 @@ export async function shieldMaster2024({ speaker, actor, token, character, item,
             if(debugEnabled) game.gps.logInfo(`${item.name} Interpose Shield for ${actor.name} failed at reaction available`);
             return;
         }
-        if(MidiQOL.checkIncapacitated(effectOriginToken)) {
+        if(MidiQOL.checkIncapacitated(actor)) {
             if(debugEnabled) game.gps.logInfo(`${item.name} Interpose Shield for ${actor.name} failed because token is incapacitated`);
             return;
         }

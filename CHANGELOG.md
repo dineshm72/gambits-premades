@@ -1,5 +1,11 @@
 # Changelog
 
+## [v2.1.42] - 2026-04-08
+- Updates:
+  - 5e 5.3: This is an as-is release for V13 + 5e 5.3.x. I will not be doing any 5.3 bug fixes moving forward, it is only for those that have updated and want to try it out. From some brief testing things seem to be okay, but my recommendation is to not update to 5.3. The focus of work for GPS will be on V14 + 5e 6.x
+- Bugfixes:
+  - Shield Master: Resolved incorrect variable for incapacitated check
+
 ## [v2.1.41] - 2026-03-31
 - Updates:
   - War Caster: Allow creatureOrObject types for the Opportunity Attack integration so they show up as valid spells

@@ -1,14 +1,4 @@
 - Updates:
-  - War Caster: Allow creatureOrObject types for the Opportunity Attack integration so they show up as valid spells
+  - 5e 5.3: This is an as-is release for V13 + 5e 5.3.x. I will not be doing any 5.3 bug fixes moving forward, it is only for those that have updated and want to try it out. From some brief testing things seem to be okay, but my recommendation is to not update to 5.3. The focus of work for GPS will be on V14 + 5e 6.x
 - Bugfixes:
-  - Dread Counterspell: A number of bugfixes, should now work for spells cast at or over 5th level
-  - Reckless Attack 2024: Fix the macropass check not being updated to preAttackRollConfig even though the effect was
-  - Protection: Resolved disadvantage not being applied when homebrew rule was off
-  - Instinctive Charm: Resolved disadvantage not being applied
-  - Enemies Abound: Resolved macroItem not resolving the effects item and switched to a different method to allow damaged saves to work
-  - gpsFreeSpellUse: Resolved an invalid variable name post-localization causing the function to fail
-  - Torch: Resolved Midi's new ItemMacro Init hook pushing dialogs when it shouldn't
-  - Candle: Resolved Midi's new ItemMacro Init hook pushing dialogs when it shouldn't
-  - Lamp: Resolved Midi's new ItemMacro Init hook pushing dialogs when it shouldn't
-  - Bullseye Lantern: Resolved Midi's new ItemMacro Init hook pushing dialogs when it shouldn't
-  - Hooded Lantern: Resolved Midi's new ItemMacro Init hook pushing dialogs when it shouldn't
+  - Shield Master: Resolved incorrect variable for incapacitated check
