@@ -107,7 +107,8 @@ export async function identify({ speaker, actor, token, character, item, args, s
             content: content,
             buttons: [{
                 action: "Close",
-                label: `<i class="fas fa-times" style="margin-right: 5px;"></i>${game.i18n.localize("GAMBITSPREMADES.Dialogs.Common.Close")}`,
+                label: game.i18n.localize("GAMBITSPREMADES.Dialogs.Common.Close"),
+                icon: "fas fa-times",
             }],
             render: (event) => {
                 let dialogElement = event.target.element;

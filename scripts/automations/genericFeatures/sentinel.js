@@ -25,7 +25,7 @@ export async function sentinel({workflowData,workflowType,workflowCombat}) {
         let browserUser = game.gps.getBrowserUser({ actorUuid: validTokenPrimary.actor.uuid });
 
         // Check valid weapons
-        let validWeapons = validTokenPrimary.actor.items.filter(item => item.system.equipped === true && item.system.activities?.some(activity => activity?.actionType === "mwak"));
+        let validWeapons = validTokenPrimary.actor.items.filter(item => item.system.equipped && item.system.activities?.some(activity => activity?.actionType === "mwak"));
         if (!validWeapons.length) continue;
         
         // Sort the weapons alphabetically

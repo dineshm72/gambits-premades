@@ -1,4 +1,4 @@
-export async function ballBearings({tokenUuid, regionUuid, regionScenario, originX, originY, regionStatus, speaker, actor, character, item, args, scope, workflow, options}) {
+export async function ballBearings({tokenUuid, regionUuid, regionScenario, originX, originY, regionStatus, speaker, actor, character, item, args, scope, workflow, options, userId}) {
     let gmUser = game.gps.getPrimaryGM();
 
     if(args?.[0]?.macroPass === "templatePlaced") {
